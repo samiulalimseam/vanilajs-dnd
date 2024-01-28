@@ -1,0 +1,23 @@
+.canban{
+    display: flex;
+    justify-content: space-around;
+    gap: 20px;
+}
+.list {
+    display: flex;
+    border: 1px dashed gray;
+    padding: 10px;
+    flex-direction: column;
+}
+
+.draggable{
+    color: blueviolet;
+    padding: 5px;
+    border: 1px solid gray;
+    margin: 1px;
+}
+
+#droppable {
+    padding: 10px;
+    border: 1px dashed gray;
+}
